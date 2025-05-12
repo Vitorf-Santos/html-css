@@ -14,9 +14,22 @@ header{
 header> h1{
     text-align: center;
     padding: 10px;
+  
+}
+i#burger{
+    background-color: rgb(55, 55, 55);
+    display:block;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+i#burger:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
 }
  menu{
-    display: block;
+    display: none;
 }
 menu>ul{
     list-style-type: none;
